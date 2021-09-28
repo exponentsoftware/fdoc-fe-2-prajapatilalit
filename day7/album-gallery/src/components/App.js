@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Albums from "./Albums";
-import AddAlbum from "./AddAlbum";
-import albumList from "./AlbumData";
+import Albums from "../components/Albums";
+import AddAlbum from "../components/AddAlbum";
+import albumList from "../components/AlbumData";
 
 class App extends Component {
   state = {

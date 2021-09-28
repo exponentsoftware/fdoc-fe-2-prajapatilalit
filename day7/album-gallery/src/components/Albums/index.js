@@ -1,5 +1,5 @@
 import React from "react";
-import Album from "./Album";
+import Album from "../Album";
 const Albums = ({ albums, removeAlbum }) => {
   return albums.map((album) => (
     <Album
